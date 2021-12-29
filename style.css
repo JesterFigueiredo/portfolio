@@ -1,37 +1,6 @@
-
-
 body{
-    background-color:#ff7f01;
-    font-family: 'Roboto', sans-serif;
+    background-image: url('const.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-p{
-    color:aliceblue;
-}
-#container{
-    color: aliceblue;
-
-    text-align: center;
-    margin: 14%;
-    font-size: 50px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-
-}
-
-#containetext{
-    float:left;
-    padding-left: 50px;
-    
-   
-}
-
-#belowtext{
-    font-size: large;
-    
-}
-
-#wholecontainer{
-    padding-left: 25%;
-    font-size: 70px;
-}
-
