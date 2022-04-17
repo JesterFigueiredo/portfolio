@@ -1,17 +1,15 @@
 body{
-    background-color: black !important;
     margin: 0px;
     border:0px;
-    border-style: dashed;
+    
 }
 
 /* The code below is for navigation bar */
 header{
-  padding: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:white;
+
 }
 
 #nav_list{
@@ -20,15 +18,12 @@ header{
 
 #nav_list li{
   display:inline-block;
+  padding-right: 30px;
   border: 0px;
   margin: 0px;
-  padding-right: 20px;
 }
 
-#logo{
-  height:50px;
-  width:90px;
-}
+
 
 /* The code above if for navigation bar */
 

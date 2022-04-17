@@ -20,7 +20,12 @@ app.get('/layout',(req,resp)=>{
 });
 
 app.get('/about',(req,res)=>{
-res.render('about.ejs',{name:"aaron"});
-})
+res.render('about.ejs');
+});
+
+app.get('/contact',(req,res)=>{
+    res.render('contact.ejs');
+});
+
 
 app.listen(3000);

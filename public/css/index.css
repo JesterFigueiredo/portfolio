@@ -1,3 +1,120 @@
-p{
-    color: white;
+@font-face {
+    font-family:sailec_bold;
+    src: url('/css/fonts/Sailec\ Bold/Sailec_Bold.ttf');
 }
+a{
+    color: #00ADB5;
+    text-decoration: none;
+}
+body{
+    font-family: sailec_bold;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+#eyes{
+    position:fixed;
+    right: 15.2%;
+    top:43%;
+    display:flex;
+    justify-content: space-between;
+    width:8%;
+    height: auto;
+    /* border: solid; */
+}
+
+#left,#right{
+    width: 35px;
+    height:30px;
+    background-color: white;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot:after{
+    content: '';
+    width: 8px;
+    height:9px;
+    background-color: black;
+    border-radius: 50%;
+}
+/* Below code is for left section */
+
+
+#Home_page_text>*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#Home_page_text{
+    width: 80%;
+    height: auto;
+}
+
+
+#Home_page_text>h1,h2{
+    font-size: 50px;
+}
+
+#Home_page_text>h1{
+    color: #ccd6f6;
+}
+
+
+
+#Home_page_text>h2{
+    color: #7781a1;
+}
+
+#Home_page_text>p{
+    font-family: monospace;
+    
+}
+
+#para{
+    width: 70%;
+    height: auto;
+}
+
+
+/* Above code is for left section */
+
+
+
+
+
+/* Below code is for right section */
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home_page_img{
+    height: 80%;
+    width: 100%;
+}
+
+#home_page_img>img{
+    width: 100%;
+    height: 100%;
+}
+/* Below code is for right section */

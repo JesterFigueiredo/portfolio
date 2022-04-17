@@ -5,28 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/common.css">
     <title>Document</title>
     <%- style %> 
 </head>
 <body>
-    
-    <header>
-        <img  id="logo" src="/images/white_logo.png" >
-        <nav>
-            <ul id="nav_list">
-                <li><a>Home</a></li>
-                <li><a>Projects</a></li>
-                <li><a>About me</a></li>
-                <li><a>Contact</a></li>
-                <li>
-                <input id="nav_bar_elements" type="checkbox" id="toggle" class="toggle--checkbox" />
-                <label for="toggle" class="toggle--label">
-                    <span class="toggle--label-background"></span>
-                </label>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <img  id="logo" src="/images/logo.png" height="60px" width="100px">
+            <nav>
+                <ul id="nav_list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <!-- <li>
+                    <input id="nav_bar_elements" type="checkbox" id="toggle" class="toggle--checkbox" />
+                    <label for="toggle" class="toggle--label">
+                        <span class="toggle--label-background"></span>
+                    </label>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
 
     <%- body  %> 
     <%- script  %> 

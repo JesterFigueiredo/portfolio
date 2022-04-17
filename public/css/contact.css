@@ -1,0 +1,173 @@
+@font-face {
+    font-family:sailec_bold;
+    src: url('/css/fonts/Sailec\ Bold/Sailec_Bold.ttf');
+}
+
+
+#links{
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+}
+
+#links:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whole_form{
+    background-color: black;
+    width: 75%;
+    height: auto;
+    display: grid;
+    box-sizing: border-box;
+    padding: 4%;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: sailec_bold;
+    margin-top: 0px;
+}
+
+form{
+    grid-area:form;
+}
+
+#contact{
+    grid-area: contact;
+}
+
+#socials{
+    grid-area: socials;
+}
+
+#contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr ;
+    grid-template-areas:
+    "form contact"
+    "form socials"
+    ;
+}
+
+form>*{
+    display: block;
+    width: 80%;
+    height: 10%;
+    margin-top: 3%;
+    border:1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 7px;
+    outline: none;
+}
+
+
+
+input[type="text"], textarea{
+    background-color: black;
+    color: white;
+}
+
+input[type="text"]:focus{
+    border: 2px solid #00ADB5;
+}
+
+textarea:focus{
+    border: 2px solid #00ADB5;
+}
+
+input[type="text"]{
+    height: 15%;
+}
+
+textarea{
+    height:40%;
+    resize: none;
+}
+
+button{
+    box-sizing: content-box;
+    border: none;
+    padding: none;
+    padding: 5px;
+    width: 77%;
+}
+button:hover{
+    background-color: #00ADB5;
+    cursor: pointer;
+}
+
+.cont>*{
+    border: 0px;
+    margin: 0px;
+    color: rgb(71, 71, 71);
+}
+
+.cont>img{
+    height:7%;
+    width:7%;
+}
+
+.cont{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cont>p{
+    padding-left: 3%;
+}
+
+.cont>p:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#socials{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.acc{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height:40px;
+    border-radius: 70%;
+    transition: background-color .5ms;
+}
+
+.acc>img{
+    height:90%;
+    width:70%;
+}
+
+.acc:hover{
+    border: 2px solid #00ADB5;
+}
+
+hr{
+    margin-left: 0px;
+    width: 50%;
+    color: white;
+    border-top: 1px solid #eee;
+}
+
+
+

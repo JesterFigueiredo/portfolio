@@ -1,0 +1,55 @@
+body{
+    background-color: #222831;
+    color: #00ADB5;
+}
+
+header{
+    grid-area:header;
+}
+
+.content{
+    grid-area:content;
+}
+
+/* Container */
+.container{
+    height: 100vh;
+    margin: 0 3% 0 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:0.1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "content content"
+    ;
+}
+
+/* Container */
+
+
+nav{
+    font-family: monospace;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+
+a::after{
+    content: '';
+    background-color: #00ADB5;
+    height: 2px;
+    width: 0%;
+    display: block;
+    transition: width .5s;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+
+
