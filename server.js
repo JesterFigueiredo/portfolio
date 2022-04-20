@@ -32,5 +32,5 @@ app.get('/admin_login',(req,resp)=>{
 });
 
 
-app.listen(3000);
+app.listen(process.env.PORT);
 //process.env.PORT
