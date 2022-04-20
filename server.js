@@ -19,11 +19,11 @@ app.get('/layout',(req,resp)=>{
     resp.render('layout.ejs')
 });
 
-app.get('/about',(req,res)=>{
+app.get('/about',(req,resp)=>{
 resp.render('about.ejs');
 });
 
-app.get('/contact',(req,res)=>{
+app.get('/contact',(req,resp)=>{
     resp.render('contact.ejs');
 });
 
