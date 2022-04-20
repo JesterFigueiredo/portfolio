@@ -20,7 +20,11 @@ app.get('/layout',(req,resp)=>{
 });
 
 app.get('/about',(req,resp)=>{
-resp.render('about.ejs');
+resp.render('about.ejs',{layout:false});
+});
+
+app.get('/projects',(req,resp)=>{
+    resp.render('projects.ejs',{layout:false});
 });
 
 app.get('/contact',(req,resp)=>{
@@ -32,5 +36,5 @@ app.get('/admin_login',(req,resp)=>{
 });
 
 
-app.listen(process.env.PORT);
+app.listen(process.env.POR);
 //process.env.PORT
