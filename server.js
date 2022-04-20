@@ -20,13 +20,17 @@ app.get('/layout',(req,resp)=>{
 });
 
 app.get('/about',(req,res)=>{
-res.render('about.ejs');
+resp.render('about.ejs');
 });
 
 app.get('/contact',(req,res)=>{
-    res.render('contact.ejs');
+    resp.render('contact.ejs');
+});
+
+app.get('/admin_login',(req,resp)=>{
+    resp.render('dashboard/login.ejs',{layout:false});
 });
 
 
-app.listen(process.env.PORT);
+app.listen(3000);
 //process.env.PORT
