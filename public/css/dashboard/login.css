@@ -12,12 +12,13 @@
 
 body{
     height: 100vh;
+    background-color: #06e0ec;
 }
 
 #container{
     height: 100%;
     background-color: #06e0ec;
-    display: flex;
+    display:none;
     justify-content: center;
     align-items: center;
 }
