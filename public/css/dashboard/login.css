@@ -21,6 +21,16 @@ body{
     display:none;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    position: relative;
+    animation-name:container;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes container {
+    from{opacity: 0;}
+    to{opacity: 100;}    
 }
 
 #login_card{
