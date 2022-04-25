@@ -122,3 +122,26 @@ body{
     height: auto;
 }
 /* above code is for right section */
+
+ @media only screen and (max-width:900px) {
+     .content{
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+     #home_page_img{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     #home_page_img>img{
+        width: 70%;
+        height: auto;
+    }
+
+    #eyes{
+        display: none;
+    }
+  } 
+

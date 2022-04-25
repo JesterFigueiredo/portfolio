@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/common.css">
-    <title>Document</title>
+    <title>Jester</title>
+    <link rel="icon" href="/images/logo.png" type="image/icon type">
     <%- style %> 
 </head>
 <body>
     <div class="container">
         <header>
+            <div>
             <img  id="logo" src="/images/logo.png" height="60px" width="100px">
+            <a href="#" id="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            </div>
             <nav>
                 <ul id="nav_list">
                     <li><a href="/">Home</a></li>
                     <li><a href="projects">Projects</a></li>
                     <li><a href="about">About me</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <!-- <li>
-                    <input id="nav_bar_elements" type="checkbox" id="toggle" class="toggle--checkbox" />
-                    <label for="toggle" class="toggle--label">
-                        <span class="toggle--label-background"></span>
-                    </label>
-                    </li> -->
                 </ul>
             </nav>
         </header>
 
     <%- body  %> 
-    <%- script  %> 
+    <%- script  %>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
